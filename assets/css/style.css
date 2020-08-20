@@ -1,0 +1,28 @@
+/*Importing the Montserrat and Roboto Font families */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+/*------------------------Background Colors------------*/
+.nav-bg-col{
+    background-color: #1C304A;
+}
+
+/*------------------------header------------*/
+.header-image{
+    background: url("../images/manson-avenue.jpg");
+    background-position: 70% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+.manson-logo h2{
+    color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
