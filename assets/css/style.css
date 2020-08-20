@@ -18,11 +18,23 @@ body{
     background-position: 70% 20%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 60vh;
 }
 .manson-logo h2{
     color: #E5E5E5;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    letter-spacing: 5px;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+.manson-logo{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+}
+/*------------------------Nav bar------------*/
+.nav-bar{
+    padding: 0;
 }
