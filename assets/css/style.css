@@ -6,12 +6,16 @@ body{
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    color:#E5E5E5;
 }
 /*------------------------Background Colors------------*/
 .nav-bg-col{
     background-color: #1C304A;
 }
-
+.cta-btn-col{
+    background-color: #00cfff;
+    border-color: #00cfff;
+}
 /*------------------------header------------*/
 .header-image{
     background: url("../images/manson-avenue.jpg");
@@ -19,6 +23,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
+    position: relative;
 }
 .manson-logo h2{
     color: #E5E5E5;
@@ -34,7 +39,79 @@ body{
     justify-content: start;
     padding: 5px;
 }
+.overlay{
+}
 /*------------------------Nav bar------------*/
 .nav-bar{
     padding: 0;
+}
+.nav-style{
+    margin-bottom: 0px;
+}
+
+.nav-elements li{
+    position: relative;
+    text-decoration: none;
+    color: #E5E5E5;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+#cta-btn-blue{
+    position: relative;
+    left: 20%;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 50%;
+}
+.book-btn{
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    line-height: .75;
+    padding-top: center;
+    height: 30px;
+    width: 150px;
+    margin-right: 10px;
+}
+/*------------------------Nav bar------------*/
+.hdr{
+    position: relative
+}
+.button-1{
+    position: absolute;
+    margin: 0;
+    top: 80%;
+    left: 33%;
+    
+}
+.button-2{
+    position: absolute;
+    margin: 0;
+    top: 80%;
+    right: 33%;
+}
+.book-btn-event{
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    line-height: .75;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 30px;
+    min-width: 150px;
+}
+.book-btn-merch{
+    background-color: transparent;
+    border: 2px solid #00cfff;
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    line-height: .75;
+    padding-top: center;
+    height: 30px;
+    width: 150px;
+    margin-right: 10px;
 }
